@@ -113,7 +113,7 @@
         },
         "x-ms-pageable": {
           "nextLinkName": "nextLink",
-          "itemName": "models"
+          "itemName": "modelList"
         },
         "x-ms-examples": {
           "List custom models": {
@@ -696,10 +696,9 @@
             }
           }
         },
-        "models": {
+        "modelList": {
           "description": "Collection of trained custom models.",
           "type": "array",
-          "x-ms-client-name": "models",
           "items": {
             "$ref": "#/definitions/ModelInfo"
           }
